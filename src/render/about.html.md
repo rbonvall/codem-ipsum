@@ -4,4 +4,4 @@ layout: "default"
 isPage: true
 ---
 
-<p>I am a low pérfil guy.</p>
+I am a low pérfil guy.

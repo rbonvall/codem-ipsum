@@ -4,4 +4,4 @@ layout: "default"
 isPage: true
 ---
 
-<p>Welcome to Codem Ipsum</p>
+Welcome to **Codem Ipsum**.
