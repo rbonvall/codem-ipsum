@@ -3,7 +3,7 @@
 <%- @getBlock("meta"  ).toHTML() %>
 <%- @getBlock("styles").toHTML() %>
 
-
+<img src="/images/burro-gafas.png">
 <h1><%= @document.title %></h1>
 <%- @content %>
 
