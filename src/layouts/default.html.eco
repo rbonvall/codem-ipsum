@@ -1,7 +1,7 @@
 <!doctype html>
 <title><%= @document.title %> — Codem Ipsum</title>
 <%- @getBlock("meta"  ).toHTML() %>
-<%- @getBlock("styles").toHTML() %>
+<%- @getBlock("styles").add(['/styles/style.css']).toHTML() %>
 
 <img src="/images/burro-gafas.png">
 <h1><%= @document.title %></h1>
