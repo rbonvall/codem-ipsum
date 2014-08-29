@@ -1,5 +1,11 @@
 <!doctype html>
 <title><%= @document.title %> — Codem Ipsum</title>
+<%- @getBlock("meta"  ).toHTML() %>
+<%- @getBlock("styles").toHTML() %>
+
+
 <h1><%= @document.title %></h1>
 <%- @content %>
+
+<%- @getBlock("scripts").toHTML() %>
 
